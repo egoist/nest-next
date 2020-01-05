@@ -56,7 +56,7 @@ Now start your Nest server and navigate to the homepage and you will see `Hello 
 
 ### Manually render a page
 
-Besides automatic routing via `pages` folder, you can also use `req.nextRender` inside a Nest route handler to render a Next.js page:
+Besides automatic routing via `pages` folder, you can also use `res.nextRender` inside a Nest route handler to render a Next.js page:
 
 ```js
 import { Res, Controller, Get } from '@nestjs/common'

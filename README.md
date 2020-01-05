@@ -27,7 +27,7 @@ import { NextModule } from '@nest-module/next'
   imports: [
     NextModule.register({
       dev: process.env.NODE_ENV !== 'production',
-      // It's recommended to populate your Next.js in a sub directory 
+      // It's recommended to populate your Next.js app in a sub directory 
       // like ./next folder so that it could use its own tsconfig.json
       dir: join(__dirname, '../next')
     })

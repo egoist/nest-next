@@ -1,5 +1,11 @@
 # Nest module for Next.js
 
+Use [Next.js](https://nextjs.org/) with a [Nest.js](https://nestjs.com/) server.
+
+## Why?
+
+Allow you to manage both your frontend and backend in a single repository. And you maintain one domain `example.com` instead of two: `example.com` and `api.example.com`.
+
 ## Install
 
 ```bash

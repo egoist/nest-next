@@ -27,7 +27,8 @@ import { NextModule } from '@nest-module/next'
   imports: [
     NextModule.register({
       dev: process.env.NODE_ENV !== 'production',
-      // It's recommended to populate your Next.js in a sub directory like ./next folder so that it could use its own tsconfig.json
+      // It's recommended to populate your Next.js in a sub directory 
+      // like ./next folder so that it could use its own tsconfig.json
       dir: join(__dirname, '../next')
     })
   ]
@@ -49,7 +50,7 @@ And configure your root `tsconfig.build.json` to include `src` folder only:
 }
 ```
 
-Next.js will automatically another TS config file at `next/tsconfig.json`, we want the root TS config to be applied to your Nest server only.
+Next.js will automatically create another TS config file at `next/tsconfig.json`, we want the root TS config to be applied to your Nest server only.
 
 Now start your Nest server and navigate to the homepage and you will see `Hello Next!`.
 
@@ -88,6 +89,6 @@ AnotherPage.getInitialProps = ctx => {
 export default AnotherPage
 ```
 
-## License 
+## License
 
 MIT.

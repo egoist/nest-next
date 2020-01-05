@@ -36,7 +36,7 @@ import { NextModule } from '@nest-module/next'
 export class AppModule {}
 ```
 
-Then you can use file-system based routing, try populating a page at `next/index.tsx`:
+Then you can use file-system based routing, try populating a page at `next/pages/index.tsx`:
 
 ```tsx
 export default () => <div>Hello Next!</div>
